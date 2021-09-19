@@ -13,7 +13,7 @@ message="[Policy] Checking code in $repo_dir with black..."
 # echo with color: https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797
 echo -e "\033[1;34mInfo: $message\033[0m"
 
-black -t py38 --check $repo_dir
+black -t py39 --check $repo_dir
 
 if [ $? -eq 1 ]; then
     message="[Policy] Black check failed, please use black to format your code."
