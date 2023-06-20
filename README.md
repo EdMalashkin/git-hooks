@@ -19,3 +19,5 @@ commit message according to the hints of this hook.
 repository. It stops developers pushing to the master/main branch directly.
 Besides, it also does unit tests. If the unit tests fail, the push will be
 aborted.
+
+test string
